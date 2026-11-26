@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .crv {
+        background-color: rgb(194, 5, 5);
+        top: 200px;
+        left: 500px;
+        width: 1000px;
+        height: 600px;
+        position: relative;
+      }
+      .bjm {
+        background-color: white;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        top: 150px;
+        left: 160px;
+        position: absolute;
+      }
+      .crvm {
+        background-color: rgb(194, 5, 5);
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+        top: 180px;
+        left: 230px;
+        position: absolute;
+      }
+      .zvj {
+        background-color: white;
+        width: 150px;
+        height: 150px;
+        top: 225px;
+        left: 425px;
+        clip-path: polygon(
+          50% 0%,
+          61% 35%,
+          98% 35%,
+          68% 57%,
+          79% 91%,
+          50% 70%,
+          21% 91%,
+          32% 57%,
+          2% 35%,
+          39% 35%
+        );
+        transform: rotate(-15deg);
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="crv">
+      <div class="bjm"></div>
+      <div class="crvm"></div>
+      <div class="zvj"></div>
+    </div>
+  </body>
+</html>
